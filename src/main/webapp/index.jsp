@@ -10,10 +10,15 @@
 <body>
     <header class="bg-neutral-800 py-5">
         <div class="flex items-center justify-between max-w-screen-lg mx-auto">
-            <h1 class="text-xl text-white font-bold">AJava</h1>
+            <s:url var="url" action="/" />
+            <s:a>
+                <h1 class="text-xl text-white font-bold">AJava</h1>
+            </s:a>
             <div class="flex items-center justify-between">
                 <s:url var="url" action="example/About" />
                 <s:a class="text-white mr-4" href="%{url}">About</s:a>
+                <s:url var="url" action="example/Contact" />
+                <s:a class="text-white mr-4" href="%{url}">Contact</s:a>
                 <a class="mr-4" href="https://www.linkedin.com/in/ajbejagan/">
                     <img src="https://ajbejagan.github.io/assets/images/linkedin_icon.svg" alt="linkedin_icon">
                 </a>

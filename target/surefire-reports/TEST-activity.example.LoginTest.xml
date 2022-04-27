@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="activity.example.LoginTest" time="0.536" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="activity.example.LoginTest" time="0.532" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="17.0.2+8"/>
@@ -62,8 +62,8 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="activity.example.LoginTest" name="testLoginConfig" time="0.094"/>
-  <testcase classname="activity.example.LoginTest" name="testLoginSubmit" time="0.078"/>
-  <testcase classname="activity.example.LoginTest" name="testLoginSubmitInput" time="0.343"/>
-  <testcase classname="activity.example.LoginTest" name="testConfig" time="0.021"/>
+  <testcase classname="activity.example.LoginTest" name="testLoginConfig" time="0.106"/>
+  <testcase classname="activity.example.LoginTest" name="testLoginSubmit" time="0.077"/>
+  <testcase classname="activity.example.LoginTest" name="testLoginSubmitInput" time="0.299"/>
+  <testcase classname="activity.example.LoginTest" name="testConfig" time="0.05"/>
 </testsuite>
